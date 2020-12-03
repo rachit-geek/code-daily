@@ -2,31 +2,27 @@
 using namespace std;
 int main()
 {
-    int n;
-    cin>>n;int arr[n];
-    int flag=1;
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
+    int t;cin>>t;
+    while(t--)
+    {
+    int n,r;
+    cin>>n>>r;int arr[n];
     for(int i=0;i<n;i++)
     {
-        if(arr[i]%2==0)
+        cin>>arr[i];
+    }
+    sort(arr,arr+n);
+    n=unique(arr,arr+n)-arr;
+    int ans=0;
+    for(int i=n-1;i>=0;i--)
+    {
+        if((arr[i]-ans*r)>0)
         {
-            cout<<arr[i]/2<<' ';
-        }
-        else
-        {
-            if(flag%2==0)
-            {
-                cout<<floor(arr[i]/2)<<' ';
-                flag++;
-            }
-            else
-            {
-                cout<<ceil(arr[i]/2)<<' ';
-                flag++;
-            }
+            ans++;
         }
     }
 
+    cout<<ans<<endl;
+    }
 
 }
