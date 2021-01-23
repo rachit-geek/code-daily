@@ -2,6 +2,7 @@
 using namespace std;
 // function for shift down 
 // function to create max and min heap.
+// dsa
 void heapify(int arr[],int n,int i)
 {
 int l=2*i+1;
