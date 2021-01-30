@@ -1,4 +1,4 @@
-// problem 2
+// Problem 2
 class Solution {
 public:
     int strStr(string haystack, string needle) {
