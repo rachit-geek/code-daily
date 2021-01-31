@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// insert a node in a tree
 struct Node{
     int data;
     Node* left;
