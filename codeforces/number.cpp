@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// problem1
+// problem numbers
 int main(){
 int t;cin>>t;
 while(t--)
