@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 // geeksforgeeks
+// bst to min-heap
 struct Node{
 int data;
 Node* left;
