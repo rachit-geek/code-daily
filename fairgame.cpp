@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// fAIRGAME .CPP
 int main()
 {
     int t;
