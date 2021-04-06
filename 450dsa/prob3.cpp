@@ -1,4 +1,4 @@
-
+// problem to find the kth smallest element in the array(not the k th distinct one)
 #include <algorithm>
 #include <iostream>
 using namespace std;
