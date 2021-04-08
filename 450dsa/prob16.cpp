@@ -49,7 +49,7 @@ int main()
     }
     else
     {
-        cout<<"doesnt work";
+        cout<<"doesn't work";
     }
     return 0;
 }f
