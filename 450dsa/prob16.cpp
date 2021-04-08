@@ -49,7 +49,14 @@ int main()
     }
     else
     {
+<<<<<<< HEAD
         cout<<"doesn't work";
     }
     return 0;
 }f
+=======
+        cout<<"doesnt work";
+    }
+    return 0;
+}f
+>>>>>>> dccd76cb49e3e03318af1721a529ca8c9ca1f7b8

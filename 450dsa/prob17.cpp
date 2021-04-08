@@ -68,6 +68,6 @@ int main()
     int arr2[]={52,58,66,99,101};
     int n1=sizeof(arr1)/sizeof(arr1[0]);
     int n2=sizeof(arr2)/sizeof(arr2[0]);
-     cout<<"median is possible"<<getmedian(arr1,arr2,n1,n2);
+     cout<<"median is  possible"<<getmedian(arr1,arr2,n1,n2);
     return 0;
 }
