@@ -19,7 +19,6 @@ int mergesort(int arr[],int temp[],int l ,int r)
         inv+=merge(arr,temp,l,mid,r);
 
     }
-
     return inv;
 }
 int merge(int arr[],int temp[],int l,int mid,int r)
