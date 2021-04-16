@@ -18,3 +18,4 @@ int main()
     subsetsSums(arr, 0, n-1);
     return 0;
 }
+// do with dp to
