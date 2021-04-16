@@ -30,7 +30,7 @@ class Solution{
 		 
 
 };
-// naive solution for the same is---------
+// naive solution for the same is-----------
 
 long long countTriplets(long long arr[], int n, long long sum)
 {
