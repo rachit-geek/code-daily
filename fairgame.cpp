@@ -1,3 +1,4 @@
+//fair game problem in c++
 #include<bits/stdc++.h>
 using namespace std;
 // fAIRGAME .CPP
