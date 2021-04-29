@@ -1,5 +1,6 @@
 // C++ program to demonstrate searching operation 
 // in binary search tree without recursion 
+// iterative
 #include <bits/stdc++.h> 
 using namespace std; 
 
