@@ -9,7 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-// trees
+// trees level order traversal
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
