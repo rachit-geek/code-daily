@@ -1,5 +1,6 @@
 // C++ implementation to count pairs from two
 // BSTs whose sum is equal to a given value x
+// count pairs
 #include <bits/stdc++.h>
 using namespace std;
 
