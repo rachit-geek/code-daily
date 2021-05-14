@@ -1,4 +1,4 @@
-// question based on heap leetcode
+// question based on heap leetcode// problem solved in cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
