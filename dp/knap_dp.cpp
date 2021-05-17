@@ -1,4 +1,4 @@
-//dp top to down approach problem
+//dp top to down approach problem cpp
 nt knapSack(int W, int wt[], int val[], int n) 
 { 
     int t[n+1][W+1];
