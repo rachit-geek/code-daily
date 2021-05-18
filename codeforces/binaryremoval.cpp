@@ -1,4 +1,4 @@
-// bianary removal
+// bianary removal.cpp
 // 5
 // 10101011011
 // 0000
