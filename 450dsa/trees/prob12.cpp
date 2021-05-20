@@ -1,34 +1,27 @@
-class Solution
-{
-    public:
-    int isSum(Node* root)
+class Solution{
+  public:
+    /*You are required to complete this method*/
+    bool checkutil(Node* root,int level,int *leaflevel)
     {
-        if(!root)
+        if(root==NULL)
         {
-            return 0;
+            return true;
         }
-        return root->data+isSum(root->left)+isSum(root->right);
+        if(root->right == NULL and root->left == NULL)
+        {
+            if(*leaflevel==0)
+            {
+                level= *leaflevel;
+                return true;
+            }
+            return (*leaflevel==level);
+        }
+        return checkutil(root,level+1,leaflevel) and checkutil(root,level+1,leaflevel);
     }
-    bool isSumTree(Node* root)
+    bool check(Node *root)
     {
-         // Your code 
-         
-         if(root==NULL || root->left==NULL and root->right==NULL )
-         {
-             return 1;
-         }
-         int ls=0;int rd=0;
-         ls=isSum(root->left);
-         rd=isSum(root->right);
-         
-         if(root->data==ls+rd and isSumTree(root->left) and isSumTree(root->right))
-         {
-             return 1;
-         }
-         else
-         {
-             return 0;
-         }
-         
+        //Your code here
+        int level=0,leaflevel=0;
+        return checkutil(root,level, &leaflevel);
     }
 };
