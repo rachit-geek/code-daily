@@ -1,35 +1,17 @@
-
-void sumOfLongRootToLeafPath(Node* root, int sum,
-                      int len, int& maxLen, int& maxSum)
+int areMirror(Node* a, Node* b)
 {
-    // if true, then we have traversed a
-    // root to leaf path
-    if (!root) {
-        
-        if (maxLen < len) {
-            maxLen = len;
-            maxSum = sum;
-        } else if (maxLen == len && maxSum < sum)
-            maxSum = sum;
-        return;
-    }
-  
-    sumOfLongRootToLeafPath(root->left, sum + root->data,
-                            len + 1, maxLen, maxSum);
-  
-    sumOfLongRootToLeafPath(root->right, sum + root->data,
-                            len + 1, maxLen, maxSum);
-}
-  
-int sumOfLongRootToLeafPathUtil(Node* root)
-{
-    
-    if (!root)
-        return 0;
-  
-    int maxSum = INT_MIN, maxLen = 0;
-  
-    sumOfLongRootToLeafPath(root, 0, 0, maxLen, maxSum);
-  
-    return maxSum;
+    /* Base case : Both empty */
+    if (a==NULL && b==NULL)
+        return true;
+ 
+    // If only one is empty
+    if (a==NULL || b == NULL)
+        return false;
+ 
+    /* Both non-empty, compare them recursively
+     Note that in recursive calls, we pass left
+     of one tree and right of other tree */
+    return  a->data == b->data &&
+            areMirror(a->left, b->right) &&
+            areMirror(a->right, b->left);
 }
