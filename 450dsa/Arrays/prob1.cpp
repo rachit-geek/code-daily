@@ -1,4 +1,3 @@
-
 // PROGRAM TO REVERSE AN ARRAY
 #include<bits/stdc++.h>
 using namespace std;
