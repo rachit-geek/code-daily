@@ -3,7 +3,7 @@
 using namespace std;
 void revarr(int arr[],int n)
 { 
-    int start=0;int end=n-1;
+    int start=0;int end=n-1; 
     int temp; 
     while(start<end) 
     {
