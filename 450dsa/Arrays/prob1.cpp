@@ -9,7 +9,7 @@ void revarr(int arr[],int n)
     { 
         temp=arr[start]; 
         arr[start]=arr[end]; 
-        start++;
+        start++;   
         end--;
     }
 }
