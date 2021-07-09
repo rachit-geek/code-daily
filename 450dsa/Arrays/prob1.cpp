@@ -8,7 +8,7 @@ void revarr(int arr[],int n)
     while(start<end) 
     { 
         temp=arr[start]; 
-        arr[start]=arr[end]; 
+        arr[start]=arr[end];  
         start++;   
         end--;
     }
