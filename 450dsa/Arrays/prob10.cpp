@@ -8,7 +8,7 @@ class Solution:
     int max_sum(int arr[],int n)
     {
         int sum=INT_MIN;int sum1=0;
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n;i++) 
         {
             sum1+=arr[i];
             if(sum1>sum)
