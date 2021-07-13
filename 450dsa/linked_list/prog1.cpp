@@ -13,7 +13,7 @@ struct Node {
     }
 };
  
-struct LinkedList {
+struct LinkedList {. 
     Node* head;
     LinkedList() { head = NULL; }
     void reverse()
