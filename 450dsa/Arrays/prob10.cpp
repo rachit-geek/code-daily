@@ -5,7 +5,7 @@ using namespace std;
 class Solution:
 {
     public:
-    int max_sum(int arr[],int n)
+    int max_sum(int arr[],int n) 
     {
         int sum=INT_MIN;int sum1=0; 
         for(int i=0;i<n;i++) 
