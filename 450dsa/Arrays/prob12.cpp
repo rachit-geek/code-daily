@@ -10,7 +10,7 @@ public:
                 if(prices[j]-cp>maxp)
                 {
                     maxp=prices[j]-cp;
-                }
+                } 
             }
         }
         return maxp;
