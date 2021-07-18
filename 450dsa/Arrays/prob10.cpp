@@ -1,5 +1,5 @@
 // Kadane's algo
-// poractise
+// poractiseb
 #include<bits/stdc++.h>
 using namespace std;
 class Solution:
