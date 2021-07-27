@@ -8,7 +8,7 @@ public:
             i--;
         }
         if(i>=0)
-        {
+        { 
             int j=nums.size()-1;
             while(j>=0 and nums[j]<=nums[i])
             {   
