@@ -11,7 +11,7 @@ void revarr(int arr[],int n)
         arr[start]=arr[end];      
         start++;   
         end--;
-    }
+    }. 
 }
 void print(int arr[],int n)
 {
